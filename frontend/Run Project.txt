@@ -1,0 +1,5 @@
+cd MERN-BUS-APP
+cd frontend
+npm install
+
+npm start

@@ -1,0 +1,52 @@
+.ai-bg {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #141e30, #243b55);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(14px);
+  border-radius: 18px;
+  padding: 30px;
+  width: 100%;
+  max-width: 900px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
+}
+
+.title {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+.route-form {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.route-select,
+.route-date {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  min-width: 180px;
+}
+
+.btn-search {
+  padding: 10px 22px;
+  border-radius: 10px;
+  border: none;
+  background: #f39c12;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-search:hover {
+  background: #ffa726;
+}

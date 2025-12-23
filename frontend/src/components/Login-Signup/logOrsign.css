@@ -1,0 +1,149 @@
+/* ===== BACKGROUND ===== */
+.login-bg {
+  min-height: 100vh;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", sans-serif;
+}
+/* ===== CARD ===== */
+.login-card {
+  width: 800px;
+  height: 550px;
+  background: #fff;
+  border-radius: 22px;
+  display: flex;
+  overflow: hidden;
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.45);
+  /* subtle zoom and stronger depth for visual prominence */
+  transform-origin: center;
+  transform: scale(1.02);
+  transition: transform 220ms ease, box-shadow 220ms ease;
+  border: 1px solid rgba(0,0,0,0.03);
+}
+
+/* ===== LEFT ===== */
+.login-left {
+  width: 45%;
+  background: linear-gradient(135deg, #1b2735, #090a0f);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  text-align: center;
+}
+
+/* small inner shadow to separate left panel */
+.login-left { box-shadow: inset -10px 0 30px rgba(0,0,0,0.15); }
+
+.login-icon {
+  font-size: 50px;
+  color: #f39c12;
+  margin-bottom: 15px;
+}
+
+.login-left h1 {
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.login-left p {
+  font-size: 14px;
+  color: #ccc;
+  margin-top: 8px;
+}
+
+/* ===== RIGHT ===== */
+.login-right {
+  width: 55%;
+  padding: 50px;
+}
+
+/* ensure the right panel content aligns nicely */
+.login-right { display: flex; flex-direction: column; justify-content: center; }
+
+.login-right h2 {
+  margin-bottom: 5px;
+}
+
+.sub-text {
+  font-size: 13px;
+  color: #777;
+  margin-bottom: 30px;
+}
+
+/* ===== INPUTS ===== */
+.input-group {
+  position: relative;
+  margin-bottom: 22px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px 10px;
+  border: none;
+  border-bottom: 2px solid #ddd;
+  font-size: 14px;
+  outline: none;
+}
+
+.input-group label {
+  position: absolute;
+  top: 12px;
+  left: 10px;
+  font-size: 13px;
+  color: #999;
+  pointer-events: none;
+  transition: 0.3s ease;
+}
+
+.input-group input:focus,
+.input-group input:valid {
+  border-color: #f39c12;
+}
+
+.input-group input:focus + label,
+.input-group input:valid + label {
+  top: -8px;
+  font-size: 11px;
+  color: #f39c12;
+}
+
+/* ===== BUTTON ===== */
+.login-btn {
+  width: 100%;
+  margin-top: 10px;
+  padding: 12px;
+  border: none;
+  border-radius: 12px;
+  background: #f39c12;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background: #f1c40f;
+}
+
+/* responsive: remove transform on small screens to avoid overflow */
+@media (max-width: 900px) {
+  .login-card { transform: none; width: 92%; height: auto; margin: 20px auto; }
+  .login-right { padding: 30px; }
+}
+
+/* ===== SIGNUP ===== */
+.signup-link {
+  margin-top: 18px;
+  font-size: 13px;
+  color: #555;
+}
+
+.signup-link span {
+  color: #f39c12;
+  cursor: pointer;
+  font-weight: 600;
+}

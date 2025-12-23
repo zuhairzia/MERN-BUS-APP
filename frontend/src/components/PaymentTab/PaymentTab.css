@@ -1,0 +1,83 @@
+/* ===== GLOBAL RESET ===== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ===== PAYMENT CONTAINER ===== */
+.payment-container {
+  width: 100%;
+}
+
+/* ===== CREDIT CARD FORM INPUTS ===== */
+.credit-form input,
+.payment-container input {
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+/* ===== INPUT FOCUS EFFECT ===== */
+.payment-container input:focus {
+  outline: 2px solid #f39c12;
+}
+
+/* ===== PAYMENT BUTTON ===== */
+.payment-container button {
+  transition: all 0.3s ease;
+}
+
+.payment-container button:hover {
+  background-color: #d35400;
+  transform: translateY(-1px);
+}
+
+/* ===== BOOKING DETAILS SECTION ===== */
+.booking-details {
+  margin-top: 10px;
+}
+
+.booking-details span {
+  font-size: 14px;
+}
+
+/* ===== ROW STYLE ===== */
+.booking-details div {
+  color: #fff;
+}
+
+/* ===== PAYMENT SUMMARY ===== */
+.payment-summary {
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px dashed rgba(255, 255, 255, 0.3);
+}
+
+.payment-summary span,
+.payment-summary p {
+  font-size: 14px;
+}
+
+.payment-summary strong {
+  font-size: 16px;
+}
+
+/* ===== CREDIT CARD COMPONENT FIX ===== */
+.rccs {
+  margin: 0 auto;
+}
+
+/* ===== MOBILE RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .payment-container {
+    padding: 20px 10px;
+  }
+
+  .payment-container > div {
+    flex-direction: column;
+  }
+}
