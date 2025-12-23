@@ -43,24 +43,23 @@ This project also demonstrates:
 * a typcial React project layout structure
 
 **Screenshots:**
-Landing Page:
+## Screenshots
 
-![](<img width="1365" height="635" alt="Bus" src="https://github.com/user-attachments/assets/3d8496a7-6747-480a-9a20-1cf594b32e9d" />)
+### Landing Page
+![Landing Page](https://github.com/user-attachments/assets/3d8496a7-6747-480a-9a20-1cf594b32e9d)
 
-Signing In Page:
+### Signing In Page
+![Sign In Page](https://github.com/user-attachments/assets/f5b6c145-22a1-4bb9-bf93-6d8fbdbc1572)
 
-![](<img width="1355" height="634" alt="Sign In" src="https://github.com/user-attachments/assets/f5b6c145-22a1-4bb9-bf93-6d8fbdbc1572" />)
+### Bus Selection Page
+![Bus Selection Page](https://github.com/user-attachments/assets/d1167b7b-0662-40fd-a5b5-c90b69096e33)
 
-Bus Selection Page:
+### Seat Selection Page
+![Seat Selection Page](PASTE_LINK_HERE)
 
-![](<img width="1327" height="620" alt="Bus-Page" src="https://github.com/user-attachments/assets/d1167b7b-0662-40fd-a5b5-c90b69096e33" />)
+### Payment & Confirmation Page
+![Seat Selection Page](PASTE_LINK_HERE)
 
-Seat Selection Page:
-
-![]()
-
-Payment & Confirmation Page:
-![](documentationResources/payment.gif)
 ---
 
 ## Developed With
