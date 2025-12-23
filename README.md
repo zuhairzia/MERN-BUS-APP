@@ -45,19 +45,19 @@ This project also demonstrates:
 **Screenshots:**
 Landing Page:
 
-![](documentationResources/bus.gif)
+![](<img width="1365" height="635" alt="Bus" src="https://github.com/user-attachments/assets/3d8496a7-6747-480a-9a20-1cf594b32e9d" />)
 
 Signing In Page:
 
-![](documentationResources/signin.png)
+![](<img width="1355" height="634" alt="Sign In" src="https://github.com/user-attachments/assets/f5b6c145-22a1-4bb9-bf93-6d8fbdbc1572" />)
 
 Bus Selection Page:
 
-![](documentationResources/bus-page.png)
+![](<img width="1327" height="620" alt="Bus-Page" src="https://github.com/user-attachments/assets/d1167b7b-0662-40fd-a5b5-c90b69096e33" />)
 
 Seat Selection Page:
 
-![](documentationResources/seatSelection.gif)
+![]()
 
 Payment & Confirmation Page:
 ![](documentationResources/payment.gif)
@@ -87,8 +87,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 The following software is required to be installed on your system:
 
-* Node 8.x
-* Npm 3.x
+* Node v16.20.2
+* Npm 8.19.4
 
 Type the following commands in the terminal to verify your node and npm versions
 
@@ -104,13 +104,13 @@ Follow the following steps to get development environment running.
 * Clone _'MERN-BUS-APP.git'_ repository from GitHub
 
   ```bash
-  git clone https://github.com/AdityaKumawat97/MERN-BUS-APP.git
+  git clone https://github.com/zuhairzia/MERN-BUS-APP.git
   ```
 
    _OR USING SSH_
 
   ```bash
-  git clone git@github.com:AdityaKumawat97/MERN-BUS-APP.git
+  git clone git@github.com:zuhairzia/MERN-BUS-APP.git
   ```
 
 * Install node modules
