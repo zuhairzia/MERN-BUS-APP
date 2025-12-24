@@ -1,8 +1,7 @@
-import axios from 'axios'
+import api from '../API/api'
 
 export function registerUser(newUserDetails){
-    let apiUrl = 'http://localhost:8080/register'
-    return axios.post(apiUrl,newUserDetails,{
+    return api.post('/register', newUserDetails, {
         headers:{
             'Content-Type': 'application/json'
         }

@@ -1,7 +1,6 @@
-import axios from 'axios'
+import api from '../API/api'
 
 export async function getRoutesFromApi(startCity, destination) {
-    const baseURL = "http://localhost:8080/booking/"
-    let incoming = await axios.post(baseURL, { startCity, destination })
+    let incoming = await api.post('/booking/', { startCity, destination })
     return incoming
 }

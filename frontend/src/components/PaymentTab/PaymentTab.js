@@ -3,6 +3,7 @@ import Card from 'react-credit-cards';
 import 'react-credit-cards/es/styles-compiled.css';
 import jwt_decode from 'jwt-decode';
 import './PaymentTab.css';
+import api from '../API/api';
 
 /* ===== Row Style for Booking Details ===== */
 const rowStyle = {
@@ -120,15 +121,13 @@ export default class PaymentTab extends React.Component {
     // POST to backend to save ticket, then redirect to ticket page
     const token = sessionStorage.getItem('authToken');
 
-    fetch('http://localhost:8080/ticket', {
-      method: 'POST',
+    api.post('/ticket', payload, {
       headers: {
         'Content-Type': 'application/json',
         ...(token ? { Authorization: `Bearer ${token}` } : {})
-      },
-      body: JSON.stringify(payload)
+      }
     })
-      .then((res) => res.json())
+      .then((res) => res.data)
       .then((data) => {
         if (data && data.success && data.ticket) {
           localStorage.setItem('savedTicketId', data.ticket._id);
